@@ -1,13 +1,11 @@
 Codebook for the tidy data set
 ==============================
 
-# Following are the attributes in the tidy data set.
-
-## Grouping attributes
+### Grouping attributes
 * activity.desc -> Represents the activity
 * subject.id -> Represents the subject
 
-## Mean of the following features
+### Mean of the following features
 * tbodyacc.mean.x
 * tbodyacc.mean.y 
 * tbodyacc.mean.z 
