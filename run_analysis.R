@@ -35,4 +35,4 @@ reqd.df <- df[reqd.features]
 reqd.df$subject.id <- as.factor(reqd.df$subject.id)
 reqd.df$activity.desc <- as.factor(reqd.df$activity.desc)
 tidy.df <- aggregate(. ~ activity.desc + subject.id, data = reqd.df, mean)
-write.table(tidy.df, "tidy.csv", col.names=TRUE, row.names=FALSE, sep=",")
+write.table(tidy.df, "tidy.txt", col.names=TRUE, row.names=FALSE, sep="\t")
