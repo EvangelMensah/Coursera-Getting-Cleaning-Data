@@ -19,4 +19,4 @@ Coursera's Getting &amp; Cleaning Data
 * Select only the attributes which are measure of mean or standard deviation (contains 'mean' or 'std' in it)
 * Convert the subject id and activity description as factors
 * Create the tidy data frame by calculating the mean of all the columns grouped by subject id and activity description
-* Write the data of this data frame into tidy.csv file
+* Write the data of this data frame into tidy.txt file
